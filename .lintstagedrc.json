@@ -1,0 +1,4 @@
+{
+  "*.{js,jsx}": ["yarn eslint.check"],
+  "*.{js,jsx,html,css,scss,json,md,yaml,yml}": ["yarn format"]
+}
