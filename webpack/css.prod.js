@@ -5,7 +5,7 @@ module.exports = () => ({
   test: /\.(sa|sc|c)ss$/,
   use: [
     MiniCssExtractPlugin.loader,
-    'css-loader', // Translates CSS into CommonJS
+    'css-loader',
     {
       loader: 'postcss-loader',
       options: {
@@ -14,6 +14,6 @@ module.exports = () => ({
         }
       }
     },
-    'sass-loader' // Compiles Sass to CSS
+    'sass-loader'
   ]
 });

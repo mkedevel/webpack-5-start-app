@@ -21,7 +21,7 @@ function component() {
 
   contact.innerHTML = `
     <ul class="contacts">
-      <li>github: <a href="//github.com/resetus/webpack-start-app">webpack-start-app</a></li>
+      <li>github: <a href="//github.com/resetus/webpack-5-start-app">webpack-5-start-app</a></li>
       <li>author: <a href="//github.com/resetus">resetus</a></li>
     </ul>
   `.trim();
